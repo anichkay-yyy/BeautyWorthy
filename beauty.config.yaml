@@ -5,7 +5,7 @@ general:
   start_url: /
   lang: en
   display: standalone
-  orientation: any
+  orientation: portrait
   background_color: "#030712"
   theme_color: "#6D28D9"
   shortcuts:
