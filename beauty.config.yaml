@@ -1,0 +1,21 @@
+general:
+  name: Worthy
+  short_name: Worthy
+  description: It's Worthy
+  start_url: /
+  lang: en
+  display: standalone
+  orientation: any
+  background_color: "#030712"
+  theme_color: "#6D28D9"
+  shortcuts:
+    - name: + Expense
+      url: /new?isIncome=false
+    - name: "- Income"
+      url: /new?isIncome=true
+# If you want set more options in manifest, you can set there in the "general" tab of this config
+
+icons:
+  icon: ./beauty-src/logo.png
+  icon_dir: ./public/icons/
+  icons_path: /icons/
